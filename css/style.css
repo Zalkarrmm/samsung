@@ -1,0 +1,324 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul, header ol {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header li {
+  cursor: pointer;
+}
+header li a {
+  font-size: 14px;
+  font-weight: 550;
+  text-decoration: none;
+  color: rgba(37, 37, 37, 0.863);
+}
+header .links {
+  padding: 25px 10px;
+}
+header .logo {
+  width: 150px;
+  height: 60px;
+  background: url("../img/logo.png") center/cover;
+}
+header .links:hover {
+  text-decoration: underline black solid;
+  background-color: rgba(194, 194, 194, 0.315);
+}
+header .search {
+  padding: 0px 20px;
+  font-size: 25px;
+}
+
+hr {
+  margin-top: -10px;
+  width: 100%;
+  background-color: #a5a5a5;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+main #sec_1 {
+  display: flex;
+  flex-direction: column;
+}
+main #sec_1 .pics {
+  width: 100%;
+  height: 80vh;
+  margin: 20px 0px;
+}
+main #sec_1 .pic_1 {
+  background: url("../img/fold.jpg") center/cover;
+}
+main #sec_1 .pic_2 {
+  background: url("../img/img1.jpg") center/cover;
+}
+main #sec_2 {
+  display: flex;
+  flex-direction: column;
+}
+main #sec_2 .big_1 {
+  display: flex;
+  flex-direction: row;
+}
+main #sec_2 .big_1 .img_2 {
+  width: 1500px;
+  height: 100vh;
+  background: url("../img/img2.jpg") center/cover;
+}
+main #sec_2 .big_1 .img_9 {
+  width: 80%;
+  height: 80vh;
+  background: url("../img/img9.jpg") center/cover;
+}
+main #sec_2 .big_1 .img_2:hover {
+  cursor: pointer;
+}
+main #sec_2 .big_1 .text {
+  margin: 0px 70px;
+  padding: 0px 50px;
+  width: 60%;
+}
+main #sec_2 .big_1 .text h1 {
+  font-weight: 750;
+  font-size: 51px;
+}
+main #sec_2 .big_1 .text p {
+  font-size: 16px;
+  font-weight: 600;
+}
+main #sec_2 .big_2 {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #sec_2 .big_2 .some {
+  width: 70%;
+  text-align: center;
+}
+main #sec_2 .big_2 .some h1 {
+  font-size: 62px;
+}
+main #sec_2 .big_2 .some p {
+  font-weight: 600;
+  font-size: 20px;
+}
+main #sec_2 .big_2 a {
+  width: 100%;
+  height: 85vh;
+  background: url("../img/img3.jpg") center/cover;
+}
+main #sec_2 .mini_sec {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+main #sec_2 .mini_sec .minis {
+  width: 50%;
+  height: 50vh;
+  border: 1px solid rgba(114, 114, 114, 0.692);
+  display: flex;
+}
+main #sec_2 .mini_sec .minis .mini_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+main #sec_2 .mini_sec .buttons {
+  padding: 20px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+main #sec_2 .mini_sec .buttons:hover {
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+main #sec_2 .mini_sec .mini_1 {
+  position: relative;
+  text-align: center;
+  margin-right: 20px;
+}
+main #sec_2 .mini_sec .mini_1 .img4 {
+  margin: 10px 40px;
+  width: 140px;
+  height: 80%;
+  background: url("../img/img4.jpg") center/cover;
+}
+main #sec_2 .mini_sec .mini_2 {
+  position: relative;
+  text-align: center;
+}
+main #sec_2 .mini_sec .mini_2 .img5 {
+  position: relative;
+  right: 0px;
+  width: 200px;
+  margin: 10px 40px;
+  height: 80%;
+  background: url("../img/img5.jpg") center/cover;
+}
+main #sec_2 .mini_sec .img7 {
+  width: 250px;
+  margin: 10px 40px;
+  height: 80%;
+  background: url("../img/img7.png") center/cover;
+}
+main #sec_2 .mini_sec .mini_3 {
+  position: relative;
+}
+main #sec_2 .mini_sec .mini_3 .img8 {
+  position: relative;
+  width: 250px;
+  margin: 10px 40px;
+  height: 80%;
+  background: url("../img/img8.png") center/cover;
+}
+main #sec_2 .banner_01 {
+  margin: 40px 0px;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/img6.png") center/cover;
+}
+main #sec_2 .biggi {
+  height: 90vh;
+  margin: 40px 0px;
+  background-color: black;
+  color: white;
+}
+main #sec_2 .biggi .textti {
+  margin: 100px 50px;
+}
+main #sec_2:hover .up {
+  position: fixed;
+  font-size: 40px;
+  right: 30px;
+  bottom: 30px;
+  color: grey;
+}
+
+@media screen and (max-width: 1000px) {
+  .mini_sec {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .mini_sec .minis {
+    margin: 20px;
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  header ol .links {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .big_1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 250px;
+  }
+  .big_1 .text {
+    width: 100%;
+    text-align: center;
+  }
+
+  .biggi {
+    display: flex;
+    justify-content: center;
+  }
+  .biggi .img_9 {
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  header ul .links {
+    display: none;
+  }
+
+  .mini_sec {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 120vh;
+  }
+  .mini_sec .minis {
+    height: 10000px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .mini_sec .minis .img4, .mini_sec .minis .img5, .mini_sec .minis .img7, .mini_sec .minis .img8 {
+    height: 50vh;
+  }
+
+  .big_1 {
+    justify-content: center;
+  }
+
+  .big_2 {
+    align-items: center;
+  }
+  .big_2 .nono {
+    width: 50%;
+  }
+  .big_2 .nono h1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 420px) {
+  header ul .search {
+    display: none;
+  }
+
+  .big_1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 500px;
+  }
+
+  #sec_2 .mini_sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 150vh;
+  }
+  #sec_2 .mini_sec .minis {
+    height: 50%;
+  }
+  #sec_2 .mini_sec .minis .img8, #sec_2 .mini_sec .minis .img4, #sec_2 .mini_sec .minis .img5, #sec_2 .mini_sec .minis .img7 {
+    display: none;
+  }
+  #sec_2 .big_1 .text .pered {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
